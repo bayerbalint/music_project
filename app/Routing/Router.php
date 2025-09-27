@@ -15,12 +15,16 @@ class Router{
     private function dispatch($method, $requestUri){
         switch ($method){
             case 'GET':
+                $this->handleGetRequests();
                 break;
             case 'POST':
+                $this->handlePostRequests();
                 break;
             case 'PATCH':
+                $this->handlePatchRequests();
                 break;
             case 'DELETE':
+                $this->handleDeleteRequests();
                 break;
         }
     }
@@ -29,6 +33,12 @@ class Router{
         switch ($requestUri){
             case '/songs':
                 
+                break;
+            case '/artists':
+
+                break;
+            case 'albums':
+
                 break;
             default:
                 $this->notFound();
