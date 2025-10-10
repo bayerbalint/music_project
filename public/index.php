@@ -7,7 +7,12 @@ include __DIR__ . '/../vendor/autoload.php';
 use App\Routing\Router;
 use App\Database\Install;
 
-echo 'Apád faszát';
+$install = new Install([
+    'host' => 'localhost',
+    'user' => 'root',
+    'password' => null,
+    'database' => 'mysql',
+]);
 
 $router = new Router();
 $router->handle();
