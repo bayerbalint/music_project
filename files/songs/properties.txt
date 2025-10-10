@@ -1,0 +1,5 @@
+5;NULL;NULL;A 66-os út;Hip-Hop;Magyar
+6;1;NULL;Vettem a piacon egy szájkosarat;Hardstyle;Magyar
+NULL;2;1;Sonne;Industrial metal;Angol
+10;NULL;NULL;Waka Waka;Afro-pop;Dél-afrika
+NULL;3;2;Cheer Up London;Rock;Angol

@@ -11,8 +11,8 @@ class Layout{
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>$title</title>
-
-            <link rel="stylesheet" href="/css/songs.css" type="text/css">
+            <script src="/js/script.js" type="text/javascript"></script>
+            <link rel="stylesheet" href="/css/style.css" type="text/css">
             <link rel="stylesheet" href="/fontawesome/css/all.css" type="text/css">
         </head>
         <body>        
@@ -41,9 +41,10 @@ class Layout{
         echo <<<HTML
         <nav class="navbar">
             <ul class="nav-list">
-                <li class="nav-button"><a href="/songs" title="Zenék"><button>Zenék</button></a></li>
-                <li class="nav-button"><a href="/artists" title="Előadók"><button>Előadók</button></a></li>
-                <li class="nav-button"><a href="/albums" title="Albumok"><button>Albumok</button></a></li>
+                <li><a href="/" title="Zenék"><button class="nav-button">Zenék</button></a></li>
+                <li><a href="/artists" title="Előadók"><button class="nav-button">Előadók</button></a></li>
+                <li><a href="/albums" title="Albumok"><button class="nav-button">Albumok</button></a></li>
+                <li><a href="/bands" title="Együttesek"><button class="nav-button">Együttesek</button></a></li>
             </ul>
         </nav>
         HTML;
@@ -54,7 +55,7 @@ class Layout{
         </div>
             <footer> 
                 <hr>
-                <p>2025 &copy; Bayer Bálint</p>
+                <p>2025 &copy; Bayer Bálint, György Zoltán Szilárd, Oszaczki Csaba</p>
             </footer>
         </body>
         </html>
